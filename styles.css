@@ -13,6 +13,7 @@ html, body {
 
 .main-nav {
     text-align: center;
+    background-color: rgba(0, 50, 80, 0.583);
     border-bottom: 1px solid rgba(0,0,0,0.5);
 }
 
@@ -25,40 +26,77 @@ html, body {
     display: inline;
 }
 
-
-
 .nav a {
     display: inline-block;
-    padding-top: 0.5em;
-    padding-bottom: 0.25em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0.25em 1em;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bolder;
+    color: white;
 }
-
 
 .nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-
-
-/* Change the image to bw */
 .main-header {
     background-color: rgba(0, 0, 0, 0.4);
     background-image: url("images/highline.jpg");
-    background-size: cover;
+    filter: grayscale(100%);
+    background-size:cover;
     background-blend-mode: multiply;
-    padding-top: 600px;
+    padding-top: 500px;
     text-align: center;
 }
 
 .slackpoli-name {
-    display: inline-block;
-    font-size: 5em;
-    padding: 0.2em;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
     color: rgb(230, 230, 230);
 }
+
+.slackpoli-name-large {
+    font-size: 5em;
+    padding-bottom: 1em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+
+.section-header {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    height: ;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-footer {
+    background-color: rgba(0, 50, 80, 0.583);
+}
+
+.main-footer li {
+    padding: 0 2em;
+    color: rgb(230, 230, 230);
+    font-weight: normal;
+    font-size: 1em;
+}
+
 
