@@ -11,6 +11,35 @@ html, body {
     padding: 0;
 }
 
+/* Styling the header with Slackpoli text */
+.main-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("images/highline.jpg");
+    filter: grayscale(100%);
+    background-size:cover;
+    background-blend-mode: multiply;
+    padding-top: 450px;
+    text-align: center;
+}
+
+.main-header a {
+    text-decoration: none;
+}
+
+.slackpoli-name {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    color: rgb(230, 230, 230);
+}
+
+.slackpoli-name-large {
+    font-size: 5em;
+    padding-bottom: 1em;
+}
+
+
+/* Styling the navigation bar */
 .main-nav {
     border-top: 1px solid rgba(0,0,0,0.5);
     text-align: center;
@@ -40,28 +69,8 @@ html, body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.main-header {
-    background-color: rgba(0, 0, 0, 0.4);
-    background-image: url("images/highline.jpg");
-    filter: grayscale(100%);
-    background-size:cover;
-    background-blend-mode: multiply;
-    padding-top: 450px;
-    text-align: center;
-}
 
-.slackpoli-name {
-    text-align: center;
-    font-size: 2em;
-    margin: 0;
-    color: rgb(230, 230, 230);
-}
-
-.slackpoli-name-large {
-    font-size: 5em;
-    padding-bottom: 1em;
-}
-
+/* Styling the content and the content container */
 .content-section {
     margin: 1em;
 }
@@ -77,14 +86,16 @@ html, body {
     font-size: 2em;
 }
 
+
+/* Styling the footer */
 .main-footer {
     background-color: rgba(0, 50, 80, 0.583);
 }
 
 .main-footer-container {
     display: flex;
-    max-width: 800px;
     align-items: center;
+    justify-content: center;
 }
 
 .main-footer li {
@@ -94,6 +105,8 @@ html, body {
     font-size: 1.25em;
 }
 
+
+/* Styling the Gallery page */
 .gallery-header {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
