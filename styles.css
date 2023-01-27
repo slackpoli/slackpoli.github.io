@@ -46,7 +46,7 @@ html, body {
     filter: grayscale(100%);
     background-size:cover;
     background-blend-mode: multiply;
-    padding-top: 500px;
+    padding-top: 450px;
     text-align: center;
 }
 
