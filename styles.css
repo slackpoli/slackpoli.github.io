@@ -77,25 +77,21 @@ html, body {
     font-size: 2em;
 }
 
-.main-footer-container {
-    display: flex;
-    align-items: center;
-}
-
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
-
 .main-footer {
     background-color: rgba(0, 50, 80, 0.583);
+}
+
+.main-footer-container {
+    display: flex;
+    max-width: 800px;
+    align-items: center;
 }
 
 .main-footer li {
     padding: 0 2em;
     color: rgb(230, 230, 230);
-    font-weight: normal;
-    font-size: 1em;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 .gallery-header {
