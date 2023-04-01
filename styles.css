@@ -34,8 +34,8 @@ html, body {
 }
 
 .slackpoli-name-large {
-    font-size: 5em;
-    padding-bottom: 1em;
+    font-size: 6em;
+    padding-bottom: 0.25em;
 }
 
 
@@ -73,6 +73,7 @@ html, body {
 /* Styling the content and the content container */
 .content-section {
     margin: 1em;
+    text-align: justify;
 }
 
 .container {
@@ -84,6 +85,14 @@ html, body {
 .section-header {
     font-family:'Courier New', Courier, monospace;
     font-size: 2em;
+}
+
+/* Styling the practice sessions table */
+.practice-table {
+    padding: 1em;
+    padding-bottom: 2em;
+    text-align: left;
+    width: 100%;
 }
 
 
